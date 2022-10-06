@@ -30,10 +30,10 @@ def multiplication_elem(worker_list):
     result_list = []
 
     for i in range(lengt//2):
-        result = worker_list[i]*worker_list[lengt - i - 1]
+        result = worker_list[i] * worker_list[lengt - i - 1]
         result_list.append(result)
     if lengt % 2:
-        result_list.append(worker_list[lengt//2])
+        result_list.append(worker_list[lengt // 2])
     return result_list
 
 
