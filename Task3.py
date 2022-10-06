@@ -39,5 +39,3 @@ if all_list == 'Ошибка':
 else:
     print(all_list)
     print(dif_max_min(all_list))
-
-
